@@ -1,0 +1,16 @@
+services:
+  appium:
+    image: appium/appium:latest
+    container_name: iappium-server
+    privileged: true
+    ports:
+      - "4723:4723"
+    environment:
+      - ALLOW_INSECURE=adb_shell
+    networks:
+      - mobile-testing
+    restart: always
+ 
+networks:
+  mobile-testing:
+    driver: bridge

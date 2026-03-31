@@ -1,0 +1,7 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","0","Weryfikacja ładowania lekcji w Bloku 10","","2026-03-31","passed","2026-03-31","TestCourseFlow","test_102_meta_reporting","",""
+"","2","Test ze zrzutem ekranu (Symulacja)","","2026-03-31","failed","2026-03-31","TestVisualEvidence","test_103_attachments","",""
+"Ten test ma celowo pokazać, jak Allure raportuje błędy.","2","Test Przykładowego Błędu","","2026-03-31","failed","2026-03-31","TestAllureSetup","Blok 10: Raportowanie i Automatyzacja","",""
+"","0","Załączanie pliku tekstowego (Logi)","","2026-03-31","passed","2026-03-31","TestVisualEvidence","test_103_attachments","",""
+"Sprawdza, czy skrypt widzi API oraz Dockerowe Appium (port 4723).","88","Weryfikacja Mostu Hybrydowego","","2026-03-31","passed","2026-03-31","TestAllureSetup","Blok 10: Raportowanie i Automatyzacja","",""
+"","0","Błąd: Brak uprawnień do lekcji premium","","2026-03-31","passed","2026-03-31","TestCourseFlow","test_102_meta_reporting","",""
